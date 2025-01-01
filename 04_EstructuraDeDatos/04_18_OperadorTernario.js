@@ -28,8 +28,12 @@ console.log(a > b ? a + 2 : b * 3);
 
 /* ==== OPERADOR CONDICIONAL TERNARIO MULTIPLE ==== */
 
-function compararNumeros(a, b){
-  if ( a === b ) {
- 
-  }
+function compararNumeros(a, b) {
+  return a == b
+    ? "a y b son iguales"
+    : a > b
+    ? "a es mayor que b"
+    : "b es mayor que a";
 }
+
+console.log(compararNumeros(11, 11));
