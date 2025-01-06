@@ -1,6 +1,6 @@
 /* ==== Sintaxis de Desestructuracion de Objetos Anidados ==== */
 
-/**
+/** `
  * Como podemos usar la sintaxys de desestructuracion para objetos anidados.
  */
 
